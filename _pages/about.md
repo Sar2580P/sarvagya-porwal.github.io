@@ -60,6 +60,9 @@ Ensure 'formal_photo_short copy.jpg' exists inside the 'images' folder.
 </tr>
 </table>
 
+
+![Editing a Markdown file for a talk](/images/HOME-PAGE-INTRO.png)
+
 <!-- SECTION: SELECTED EXPERTISE GRID -->
 
 🧠 Selected Expertise
