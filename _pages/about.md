@@ -54,12 +54,13 @@ redirect_from:
 NOTE: The filename has a space, so we use '%20' to encode it.
 Ensure 'formal_photo_short copy.jpg' exists inside the 'images' folder.
 -->
-<img src="/images/HOME-PAGE-INTRO.png" width="250" alt="Mr Porwal" style="border-radius: 15px;" />
+<img src="../images/HOME-PAGE-INTRO.png" width="250" alt="Mr Porwal" style="border-radius: 15px;" />
 </td>
 
 </tr>
 </table>
 
+<img src="{{ site.baseurl }}/images/HOME-PAGE-INTRO.png" width="250" alt="Mr Porwal" style="border-radius: 15px;" />
 
 <!-- SECTION: SELECTED EXPERTISE GRID -->
 
