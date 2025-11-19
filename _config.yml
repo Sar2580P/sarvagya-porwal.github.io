@@ -13,8 +13,9 @@ title                    : "Sarvagya's Home"
 title_separator          : "-"
 name                     : &name "Sarvagya Porwal"
 description              : &description "personal description"
-url                      : "https://sar2580p.github.io/sarvagya-porwal.github.io/" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+# url                      : "https://sar2580p.github.io/sarvagya-porwal.github.io/" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url: "https://sar2580p.github.io"
+baseurl: "/sarvagya-porwal.github.io"
 repository               : "Sar2580P/sarvagya-porwal.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
