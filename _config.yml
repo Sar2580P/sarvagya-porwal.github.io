@@ -23,7 +23,7 @@ repository               : "Sar2580P/sarvagya-porwal.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/formal_photo_short.png"
+  avatar           : "/formal_photo_short.jpg"
   name             : "Sarvagya Porwal"
   pronouns         : "he/him"
   bio              : "AI Researcher, exploring RL and Diffusion Models."
