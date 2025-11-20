@@ -1,6 +1,6 @@
 ---
 title: "Sentinel-2 Field Delineation"
-excerpt: "High-precision agricultural field segmentation using Hyperspectral Imagery. <br/><img src='images/sentinel_project/output.png'>"
+excerpt: "High-precision agricultural field segmentation using Hyperspectral Imagery. <br/><img src='../images/sentinel_project/output.png'  style='height: 200px; width: auto;'><br/>"
 collection: portfolio
 date: 2024-08-01
 ---

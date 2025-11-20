@@ -1,6 +1,6 @@
 ---
 title: "Spectral Band Attention Networks (SBAM)"
-excerpt: "Novel architecture for Hyperspectral Band Selection achieving 95% accuracy. <br/><img src='images/spectral_attention/band_attention.png'>"
+excerpt: "Novel architecture for Hyperspectral Band Selection achieving 95% accuracy. <br/><img src='../images/spectral_attention/band_attention.png'  style='height: 200px; width: auto;'><br/>"
 collection: portfolio
 date: 2024-12-15
 ---
