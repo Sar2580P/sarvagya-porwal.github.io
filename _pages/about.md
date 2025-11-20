@@ -107,61 +107,36 @@ Ensure 'formal_photo_short copy.jpg' exists inside the 'images' folder.
 
 <style>
   .gallery-container {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-    background: #f9f9f9; /* Optional background color */
-    border-radius: 15px; /* Curved edges for container */
-    padding: 10px 0;
-  }
-
-  .gallery-track {
-    display: inline-block;
-    animation: scroll 40s linear infinite; /* Adjust speed (40s) as needed */
+    display: flex;           /* aligns items in a row */
+    justify-content: center; /* centers items horizontally */
+    flex-wrap: wrap;         /* allows items to wrap if screen is small */
+    gap: 20px;               /* space between images */
+    padding: 20px;
+    background: #f9f9f9;     /* light grey background */
+    border-radius: 15px;     /* curved container edges */
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.05); /* subtle inner shadow */
   }
 
   .gallery-img {
-    height: 180px; /* Fixed height for uniformity */
-    width: auto;
-    margin: 0 10px;
-    border-radius: 10px; /* Curved edges for images */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    vertical-align: middle;
-    transition: transform 0.3s;
-  }
-
-  .gallery-img:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    height: 220px;           /* Fixed height makes them uniform */
+    width: auto;             /* Width adjusts automatically */
+    border-radius: 10px;     /* curved image edges */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* nice shadow pop */
+    transition: transform 0.3s ease;       /* smooth hover animation */
     cursor: pointer;
   }
 
-  /* The animation keyframes */
-  @keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-  }
-  
-  /* Pause scrolling on hover for better UX */
-  .gallery-container:hover .gallery-track {
-    animation-play-state: paused;
+  /* Interactive Hover Effect */
+  .gallery-img:hover {
+    transform: translateY(-5px) scale(1.02); /* lifts image slightly */
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
   }
 </style>
 
 <div class="gallery-container">
-  <div class="gallery-track">
-    
     {% for file in site.static_files %}
       {% if file.path contains 'images/gallery' %}
         <img src="{{ site.baseurl }}{{ file.path }}" class="gallery-img" alt="Project Image" />
       {% endif %}
     {% endfor %}
-
-    {% for file in site.static_files %}
-      {% if file.path contains 'images/gallery' %}
-        <img src="{{ site.baseurl }}{{ file.path }}" class="gallery-img" alt="Project Image" />
-      {% endif %}
-    {% endfor %}
-
-  </div>
 </div>
