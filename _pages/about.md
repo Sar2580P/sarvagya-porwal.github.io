@@ -100,3 +100,68 @@ Ensure 'formal_photo_short copy.jpg' exists inside the 'images' folder.
 
 </tr>
 </table>
+
+
+
+<h3>📸 Project Gallery</h3>
+
+<style>
+  .gallery-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background: #f9f9f9; /* Optional background color */
+    border-radius: 15px; /* Curved edges for container */
+    padding: 10px 0;
+  }
+
+  .gallery-track {
+    display: inline-block;
+    animation: scroll 40s linear infinite; /* Adjust speed (40s) as needed */
+  }
+
+  .gallery-img {
+    height: 180px; /* Fixed height for uniformity */
+    width: auto;
+    margin: 0 10px;
+    border-radius: 10px; /* Curved edges for images */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    vertical-align: middle;
+    transition: transform 0.3s;
+  }
+
+  .gallery-img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    cursor: pointer;
+  }
+
+  /* The animation keyframes */
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  /* Pause scrolling on hover for better UX */
+  .gallery-container:hover .gallery-track {
+    animation-play-state: paused;
+  }
+</style>
+
+<div class="gallery-container">
+  <div class="gallery-track">
+    
+    {% for file in site.static_files %}
+      {% if file.path contains 'images/gallery' %}
+        <img src="{{ site.baseurl }}{{ file.path }}" class="gallery-img" alt="Project Image" />
+      {% endif %}
+    {% endfor %}
+
+    {% for file in site.static_files %}
+      {% if file.path contains 'images/gallery' %}
+        <img src="{{ site.baseurl }}{{ file.path }}" class="gallery-img" alt="Project Image" />
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</div>
