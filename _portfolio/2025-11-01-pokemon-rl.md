@@ -1,6 +1,6 @@
 ---
 title: "Global Rank 3: NeurIPS 2025 Pokemon AI Competition"
-excerpt: "Reinforcement Learning agent with Adaptive Hedge Ensemble. <br/><img src='pokemon_AI/pokemon_poster.png'>"
+excerpt: "Reinforcement Learning agent with Adaptive Hedge Ensemble. <br/><img src='../images/pokemon_AI/pokemon_poster.png'>"
 collection: portfolio
 date: 2025-11-01
 ---
