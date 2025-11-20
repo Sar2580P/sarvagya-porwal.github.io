@@ -23,7 +23,7 @@ redirect_from:
 <!-- BIO SECTION -->
 
 <h3>
-🤖 I'm an AI Researcher exploring the intersection of <strong>Offline RL</strong> and <strong>Generative AI</strong>.
+🤖 I'm an AI Researcher exploring the intersection of <strong>RL</strong> and <strong>Generative AI</strong>.
 </h3>
 
 <h3>
@@ -35,7 +35,7 @@ redirect_from:
 </h3>
 
 <h3>
-🏆 <strong>Global Rank 3</strong> in the NeurIPS 2025 Pokemon AI Competition (Game RL).
+🏆 <strong>Global Rank 3</strong> in the NeurIPS 2025 Pokemon AI Competition (Game AI).
 </h3>
 
 <!-- RIGHT COLUMN: THE IMAGE -->
