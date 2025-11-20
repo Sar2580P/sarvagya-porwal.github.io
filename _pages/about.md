@@ -38,15 +38,6 @@ redirect_from:
 🏆 <strong>Global Rank 3</strong> in the NeurIPS 2025 Pokemon AI Competition (Game RL).
 </h3>
 
-<!-- Social Badges -->
-
-<p>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/NeurIPS-Rank_3-FF6B6B%3Fstyle%3Dflat-square%26logo%3Dneurips%26logoColor%3Dwhite" alt="NeurIPS Rank 3"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/ELO-1793-blue%3Fstyle%3Dflat-square" alt="ELO Rating"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Focus-RL_%26_GenAI-00C896%3Fstyle%3Dflat-square" alt="Focus Area"/>
-</p>
-</td>
-
 <!-- RIGHT COLUMN: THE IMAGE -->
 
 <td width="35%" valign="center" align="center">
@@ -61,77 +52,51 @@ Ensure 'formal_photo_short copy.jpg' exists inside the 'images' folder.
 </table>
 
 
-<!-- SECTION: SELECTED EXPERTISE GRID -->
+<h3>🚀 Technical Domain Expertise</h3>
 
-🧠 Selected Expertise
+<table border="0" width="100%" cellspacing="15" cellpadding="0" style="border-collapse: separate; border-spacing: 15px;">
 
-<table border="0" width="100%">
 <tr>
 
-<!-- BLOCK 1 -->
-
-<td width="33%" valign="top">
-<h3>🤖 Reinforcement Learning</h3>
-<p><em>Designing agents that adapt.</em></p>
-<ul>
-<li>Actor-Critic Policies</li>
-<li>Offline RL & Ensembles</li>
-<li><strong>Impact:</strong> Pokemon AI Agent (Rank 3)</li>
-</ul>
+<td width="50%" valign="top" style="background-color: #fff1f0; border: 1px solid #ffa39e; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #cf1322;">🎮 Reinforcement Learning</h3>
+    <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
+        <li><strong>Algorithm:</strong> Adaptive Hedge ensemble, TD-error selection.</li>
+        <li><strong>Policy:</strong> Actor-Critic with Offline Reinforcement Learning[cite: 26].</li>
+        <li><strong>Win:</strong> Global Rank 3, NeurIPS 2025[cite: 28].</li>
+    </ul>
 </td>
 
-<!-- BLOCK 2 -->
-
-<td width="33%" valign="top">
-<h3>⚡ Generative AI</h3>
-<p><em>Architecting intelligence.</em></p>
-<ul>
-<li>RAG & Graph Agents</li>
-<li>Vector Search (pgvector)</li>
-<li><strong>Impact:</strong> Enterprise Search @ Avathon</li>
-</ul>
+<td width="50%" valign="top" style="background-color: #e6f7ff; border: 1px solid #91d5ff; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #0050b3;">👁️ Computer Vision Research</h3>
+    <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
+        <li><strong>Paper:</strong> Spectral Band Attention Networks (Accepted).</li>
+        <li><strong>Method:</strong> Band selection via attention-based ranking[cite: 19].</li>
+        <li><strong>Result:</strong> 95% Accuracy on Hyperspectral data[cite: 20].</li>
+    </ul>
 </td>
 
-<!-- BLOCK 3 -->
+</tr>
 
-<td width="33%" valign="top">
-<h3>👁️ Computer Vision</h3>
-<p><em>Teaching machines to see.</em></p>
-<ul>
-<li>Hyperspectral Imagery</li>
-<li>Semantic Segmentation</li>
-<li><strong>Impact:</strong> 0.96 IoU Field Delineation</li>
-</ul>
+<tr>
+
+<td width="50%" valign="top" style="background-color: #f9f0ff; border: 1px solid #d3adf7; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #722ed1;">✨ GenAI Research & Search</h3>
+    <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
+        <li><strong>Research:</strong> Smoothed Energy Guidance (NeurIPS Reproducibility)[cite: 8, 11].</li>
+        <li><strong>Deep Learning:</strong> Latent trajectory tracking, Gradient Entropy.</li>
+        <li><strong>RAG:</strong> Graph-based agents, cyclic metadata storage[cite: 32, 33].</li>
+    </ul>
+</td>
+
+<td width="50%" valign="top" style="background-color: #f6ffed; border: 1px solid #b7eb8f; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #389e0d;">💼 Experience & Systems</h3>
+    <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
+        <li><strong>Avathon:</strong> Distributed Celery pipelines, Microservices[cite: 53].</li>
+        <li><strong>Internship:</strong> Enterprise RAG, AWS Vector Search[cite: 59].</li>
+        <li><strong>Scale:</strong> Optimized CRUD for millions of docs[cite: 60].</li>
+    </ul>
 </td>
 
 </tr>
 </table>
-
-<!-- SECTION: FEATURED PROJECT -->
-
-⚔️ Featured Project
-
-NeurIPS 2025 Pokemon AI Competition
-
-
-
-
-
-Secured Global Rank 3 by engineering a dynamic ensemble policy that adapts to opponent strategies in real-time.
-
-
-
-
-
-
-<!-- Replace the src below with your actual gameplay GIF/Video path -->
-
-<img src="assets/images/pokemon_battle_demo.gif" alt="Pokemon Battle Demo" width="100%" style="border-radius: 10px;" />
-
-
-
-
-
-
-
-View Case Study →
