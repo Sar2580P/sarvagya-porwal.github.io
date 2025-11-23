@@ -23,8 +23,8 @@ Instead of standard Behavior Cloning, we implemented a weighted imitation object
 **The Actor Loss Function:**
 $$\mathcal{L}_{\text{Actor}} = \mathbb{E}_{\tau \sim \mathcal{D}} \left[ \frac{1}{T} \sum_{t=0}^{T} \left( -w(h_t, a_t) \log \pi(a_t \mid h_t) - \lambda \mathbb{E}_{a \sim \pi(\cdot|h_t)} [Q(h_t, a)] \right) \right]$$
 
-* **First Term (Imitation):** $-w(h_t, a_t) \log \pi(a_t \mid h_t)$ maximizes the likelihood of expert actions, weighted by their relevance $w$.
-* **Second Term (Exploration):** $-\lambda \mathbb{E} [Q(h_t, a)]$ acts as an entropy-regularized exploration bonus, pushing the policy $\pi$ towards actions with higher estimated Q-values, even if they deviate slightly from the dataset.
+* **First Term (Imitation):** `-w(h`<sub>`t`</sub>`, a`<sub>`t`</sub>`) log &pi;(a`<sub>`t`</sub>` | h`<sub>`t`</sub>`)` maximizes the likelihood of expert actions, weighted by their relevance *w*.
+* **Second Term (Exploration):** `-&lambda; E [Q(h`<sub>`t`</sub>`, a)]` acts as an entropy-regularized exploration bonus, pushing the policy *&pi;* towards actions with higher estimated Q-values, even if they deviate slightly from the dataset.
 
 #### 2. Adaptive Hedge Ensemble (The Winning Edge)
 To mitigate high action-entropy in ambiguous states, we engineered a policy ensemble. The system dynamically selected the most confident agent based on **TD (Temporal Difference) error**, allowing the bot to handle less explored scenarios robustly by switching policies when prediction error spiked.
