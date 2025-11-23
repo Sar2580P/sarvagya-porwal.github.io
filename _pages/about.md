@@ -128,9 +128,9 @@ Ensure 'formal_photo_short copy.jpg' exists inside the 'images' folder.
         <li>Engineered critical <strong>Retriever, Re-ranker, and Caching</strong> components to maximize chatbot integration efficiency and scalability.</li>
     </ul>
 </td>
-<!-- 
+
 </tr>
-</table> -->
+</table>
 
 
 
