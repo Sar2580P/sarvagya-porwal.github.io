@@ -1,5 +1,5 @@
 ---
-title: "AI Agent 007: Autonomous Agent with DAG Execution"
+title: "AI Agent 007: Inter-IIT Techfest"
 excerpt: "<b>Rank 3 @ Inter-IIT Techfest.</b> <br> Self-improving ReAct agent featuring DAG-based query decomposition and RAG-driven long-term memory. <br/><img src='../images/agent007/certificate.png' style='height: 200px; width: auto; margin-top: 10px;'><br/>"
 collection: portfolio
 date: 2023-12-20
