@@ -51,7 +51,7 @@ Ensure 'formal_photo_short copy.jpg' exists inside the 'images' folder.
 
 <table border="0" width="100%" cellspacing="15" cellpadding="0" style="border-collapse: separate; border-spacing: 15px;">
 
-<tr>
+<!-- <tr> -->
 
 <!-- <td width="50%" valign="top" style="background-color: #fff1f0; border: 1px solid #ffa39e; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
     <h3 style="margin-top: 0; color: #cf1322;">🎮 Reinforcement Learning</h3>
