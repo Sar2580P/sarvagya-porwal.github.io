@@ -21,9 +21,9 @@ We approached this as a hybrid **Imitation Learning** and **Offline Reinforcemen
 Instead of standard Behavior Cloning, we implemented a weighted imitation objective regularized by a Q-value function. This allows the agent to mimic expert moves while exploring high-reward actions that the expert might have missed.
 
 **The Actor Loss Function:**
-$$\mathcal{L}_{\text{Actor}} = \mathbb{E}_{\tau \sim \mathcal{D}} \left[ \frac{1}{T} \sum_{t=0}^{T} \left( -w(h_t, a_t) \log \pi(a_t | h_t) - \lambda \mathbb{E}_{a \sim \pi(\cdot|h_t)} [Q(h_t, a)] \right) \right]$$
+$$\mathcal{L}_{\text{Actor}} = \mathbb{E}_{\tau \sim \mathcal{D}} \left[ \frac{1}{T} \sum_{t=0}^{T} \left( -w(h_t, a_t) \log \pi(a_t \mid h_t) - \lambda \mathbb{E}_{a \sim \pi(\cdot|h_t)} [Q(h_t, a)] \right) \right]$$
 
-* **First Term (Imitation):** $-w(h_t, a_t) \log \pi(a_t | h_t)$ maximizes the likelihood of expert actions, weighted by their relevance $w$.
+* **First Term (Imitation):** $-w(h_t, a_t) \log \pi(a_t \mid h_t)$ maximizes the likelihood of expert actions, weighted by their relevance $w$.
 * **Second Term (Exploration):** $-\lambda \mathbb{E} [Q(h_t, a)]$ acts as an entropy-regularized exploration bonus, pushing the policy $\pi$ towards actions with higher estimated Q-values, even if they deviate slightly from the dataset.
 
 #### 2. Adaptive Hedge Ensemble (The Winning Edge)
