@@ -15,28 +15,23 @@ redirect_from:
 <!-- LEFT COLUMN: THE INTRO -->
 
 <td width="65%" valign="center">
-<!-- <h1>👋 Hi there, I'm Sarvagya!</h1> -->
-
-
 
 
 <!-- BIO SECTION -->
-
-<h3>
-🤖 I'm an AI Researcher exploring the intersection of <strong>RL</strong> and <strong>Generative AI</strong>.
-</h3>
-
-<h3>
-🚀 Currently working as an SDE-1 at <strong>Avathon</strong>, building scalable distributed systems.
-</h3>
-
-<h3>
-🎓 I'm a recent graduate from <strong>IIT Roorkee</strong> (Class of '25).
-</h3>
-
-<h3>
-🏆 <strong>Global Rank 3</strong> in the NeurIPS 2025 Pokemon AI Competition (Game AI).
-</h3>
+<div style="font-family: sans-serif; font-size: 16px; line-height: 2;">
+  <div>
+    🤖 <strong>Research Interest:</strong> RL &times; Generative AI
+  </div>
+  <div>
+    🚀 <strong>Current Role:</strong> SDE-1 @ <strong>Avathon</strong>
+  </div>
+  <div>
+    🎓 <strong>Education:</strong> B.Tech, <strong>IIT Roorkee</strong> '25
+  </div>
+  <div>
+    🏆 <strong>Achievement:</strong> Global Rank #3 @ <strong>NeurIPS Competition 2025</strong> (Game AI)
+  </div>
+</div>
 
 <!-- RIGHT COLUMN: THE IMAGE -->
 
@@ -58,48 +53,84 @@ Ensure 'formal_photo_short copy.jpg' exists inside the 'images' folder.
 
 <tr>
 
-<td width="50%" valign="top" style="background-color: #fff1f0; border: 1px solid #ffa39e; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+<!-- <td width="50%" valign="top" style="background-color: #fff1f0; border: 1px solid #ffa39e; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
     <h3 style="margin-top: 0; color: #cf1322;">🎮 Reinforcement Learning</h3>
     <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
         <li><strong>Algorithm:</strong> Adaptive Hedge ensemble, TD-error selection.</li>
-        <li><strong>Policy:</strong> Actor-Critic with Offline Reinforcement Learning[cite: 26].</li>
-        <li><strong>Win:</strong> Global Rank 3, NeurIPS 2025[cite: 28].</li>
+        <li><strong>Policy:</strong> Actor-Critic with Offline Reinforcement Learning.</li>
+        <li><strong>Win:</strong> Global Rank 3, NeurIPS 2025.</li>
+    </ul>
+</td> -->
+
+<td width="50%" valign="top" style="background-color: #fff1f0; border: 1px solid #ffa39e; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #cf1322;">🎮 Reinforcement Learning</h3>
+    <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
+        <li style="margin-bottom: 8px;"><strong>Imitation Learning</strong> with exploration on Gen-1 Competitive Pokemon.</li>
+        <li style="margin-bottom: 8px;"><strong>Adaptive Hedge Ensemble</strong> of policies using TD error to increase the state-action space coverage.</li>
+        <li><strong>Rank-3</strong> in Competitive Pokemon AI in NeurIPS 2025 competition.</li>
     </ul>
 </td>
 
+
+<!-- 
 <td width="50%" valign="top" style="background-color: #e6f7ff; border: 1px solid #91d5ff; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
     <h3 style="margin-top: 0; color: #0050b3;">👁️ Computer Vision Research</h3>
     <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
         <li><strong>Paper:</strong> Spectral Band Attention Networks (Accepted).</li>
-        <li><strong>Method:</strong> Band selection via attention-based ranking[cite: 19].</li>
-        <li><strong>Result:</strong> 95% Accuracy on Hyperspectral data[cite: 20].</li>
+        <li><strong>Method:</strong> Band selection via attention-based ranking.</li>
+        <li><strong>Result:</strong> 95% Accuracy on Hyperspectral data.</li>
+    </ul>
+</td> -->
+
+<td width="50%" valign="top" style="background-color: #e6f7ff; border: 1px solid #91d5ff; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #0050b3;">👁️ Computer Vision Research</h3>
+    <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
+        <li style="margin-bottom: 8px;">Proposed novel <strong>attention-based band selection</strong> technique for hyperspectral data (Published in Journal).</li>
+        <li style="margin-bottom: 8px;">Achieving <strong>on-par performance using just 15%</strong> of total bands (168).</li>
+        <li><strong>Multi-modal pipeline</strong> for joint input of RGB + Hyperspectral data, achieving <strong>95% accuracy</strong> on wheat seed classification (96 classes).</li>
     </ul>
 </td>
 
-</tr>
-
-<tr>
+<!-- <td width="50%" valign="top" style="background-color: #f9f0ff; border: 1px solid #d3adf7; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #722ed1;">✨ GenAI Research & Search</h3>
+    <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
+        <li><strong>Research:</strong> Smoothed Energy Guidance (NeurIPS Reproducibility).</li>
+        <li><strong>Deep Learning:</strong> Latent trajectory tracking, Gradient Entropy.</li>
+        <li><strong>RAG:</strong> Graph-based agents, cyclic metadata storage.</li>
+    </ul>
+</td> -->
 
 <td width="50%" valign="top" style="background-color: #f9f0ff; border: 1px solid #d3adf7; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
     <h3 style="margin-top: 0; color: #722ed1;">✨ GenAI Research & Search</h3>
     <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
-        <li><strong>Research:</strong> Smoothed Energy Guidance (NeurIPS Reproducibility)[cite: 8, 11].</li>
-        <li><strong>Deep Learning:</strong> Latent trajectory tracking, Gradient Entropy.</li>
-        <li><strong>RAG:</strong> Graph-based agents, cyclic metadata storage[cite: 32, 33].</li>
+        <li style="margin-bottom: 8px;">Worked on reproducibility of <strong>Smoothed Energy Guidance</strong> (NeurIPS 2024) for improved quality generation in diffusion models.</li>
+        <li style="margin-bottom: 8px;">Proposed mathematically equivalent and <strong>computationally cheaper alternative</strong> smoothing techniques.</li>
+        <li>Achieving even <strong>better FID & CLIP scores</strong> with proposed techniques (Paper under review).</li>
     </ul>
 </td>
+
+
+
+<!-- <td width="50%" valign="top" style="background-color: #f6ffed; border: 1px solid #b7eb8f; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #389e0d;">💼 Experience & Systems</h3>
+    <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
+        <li><strong>Avathon:</strong> Distributed Celery pipelines, Microservices.</li>
+        <li><strong>Internship:</strong> Enterprise RAG, AWS Vector Search.</li>
+        <li><strong>Scale:</strong> Optimized CRUD for millions of docs.</li>
+    </ul>
+</td> -->
 
 <td width="50%" valign="top" style="background-color: #f6ffed; border: 1px solid #b7eb8f; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
     <h3 style="margin-top: 0; color: #389e0d;">💼 Experience & Systems</h3>
     <ul style="padding-left: 20px; color: #262626; margin-bottom: 0;">
-        <li><strong>Avathon:</strong> Distributed Celery pipelines, Microservices[cite: 53].</li>
-        <li><strong>Internship:</strong> Enterprise RAG, AWS Vector Search[cite: 59].</li>
-        <li><strong>Scale:</strong> Optimized CRUD for millions of docs[cite: 60].</li>
+        <li style="margin-bottom: 8px;"><strong>Avathon:</strong> Developing <strong>Neon</strong>, a proprietary Scala-based graph database for supply chains, implementing distributed semantic search across graph nodes.</li>
+        <li style="margin-bottom: 8px;"><strong>Internship:</strong> Built an <strong>Enterprise RAG pipeline</strong> on AWS using Postgres vector-stores for high-performance information retrieval.</li>
+        <li>Engineered critical <strong>Retriever, Re-ranker, and Caching</strong> components to maximize chatbot integration efficiency and scalability.</li>
     </ul>
 </td>
-
+<!-- 
 </tr>
-</table>
+</table> -->
 
 
 
