@@ -23,6 +23,9 @@
     @include suffix(2 of 12);
   }
 
+  padding-left: 10px;
+  padding-right: 10px;
+
   .page__inner-wrap {
     @include full();
 

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello there, I'm  SARVAGYA!!!!"
+title: "👋 Hello there, I'm  SARVAGYA!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
