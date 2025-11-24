@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 <!-- LAYOUT: TWO COLUMN INTRO TABLE -->
+<div>
 
 <table width="100%">
 <tr>
@@ -35,12 +36,13 @@ redirect_from:
 
 </tr>
 </table>
+</div>
 
 <h3>🚀 Technical Domain Expertise</h3>
 
 <table border="0" width="100%" cellspacing="15" cellpadding="0" style="border-collapse: separate; border-spacing: 15px;">
 
-<!-- <tr> -->
+<tr>
 
 <!-- <td width="50%" valign="top" style="background-color: #fff1f0; border: 1px solid #ffa39e; border-radius: 15px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
     <h3 style="margin-top: 0; color: #cf1322;">🎮 Reinforcement Learning</h3>
