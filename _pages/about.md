@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello there, I'm  SARVAGYA!"
+title: "👋 Hello there, I'm  SARVAGYA!!!!!!!!!!!!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,8 +10,6 @@ redirect_from:
 <!-- LAYOUT: TWO COLUMN INTRO TABLE -->
 
 <table border="0" width="100%">
-<tr>
-
 <!-- LEFT COLUMN: THE INTRO -->
 
 <td width="65%" valign="center">
