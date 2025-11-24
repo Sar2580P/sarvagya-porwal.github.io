@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello there, I'm  SARVAGYA!!!!!!!!!!!!"
+title: "👋 Hello there, I'm  SARVAGYA!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,13 +9,11 @@ redirect_from:
 ---
 <!-- LAYOUT: TWO COLUMN INTRO TABLE -->
 
-<table border="0" width="100%">
-<!-- LEFT COLUMN: THE INTRO -->
+<table width="100%">
+<tr>
 
 <td width="65%" valign="center">
 
-
-<!-- BIO SECTION -->
 <div style="font-family: sans-serif; font-size: 16px; line-height: 2;">
   <div>
     🤖 <strong>Research Interest:</strong> RL &times; Generative AI
@@ -31,19 +29,12 @@ redirect_from:
   </div>
 </div>
 
-<!-- RIGHT COLUMN: THE IMAGE -->
-
 <td width="35%" valign="center" align="center">
-<!--
-NOTE: The filename has a space, so we use '%20' to encode it.
-Ensure 'formal_photo_short copy.jpg' exists inside the 'images' folder.
--->
 <img src="{{ site.baseurl }}/images/llama1.jpeg" width="250" alt="Mr Porwal" style="border-radius: 15px;" />
 </td>
 
 </tr>
 </table>
-
 
 <h3>🚀 Technical Domain Expertise</h3>
 
