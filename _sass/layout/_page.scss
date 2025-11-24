@@ -17,25 +17,25 @@
 }
 
 .page {
-  @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
-  }
-
+  width: 100%;
+  max-width: 100%; 
+  margin: 0 auto;   // centers if width < 100%
   padding-left: 10px;
   padding-right: 10px;
 
   .page__inner-wrap {
-    @include full();
+    width: 100%;
+    max-width: 100%;
 
     .page__content,
     .page__meta,
     .page__share {
-      @include full();
+      width: 100%;
+      max-width: 100%;
     }
   }
 }
+
 
 .page__title {
   margin-top: 0;
