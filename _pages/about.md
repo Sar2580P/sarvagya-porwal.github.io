@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello there, I'm  SARVAGYA!"
+title: "👋 Hello there, I'm  SARVAGYA!!!!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -29,6 +29,7 @@ redirect_from:
     🏆 <strong>Achievement:</strong> Global Rank #3 @ <strong>NeurIPS Competition 2025</strong> (Game AI)
   </div>
 </div>
+</td>
 
 <td width="35%" valign="center" align="center">
 <img src="{{ site.baseurl }}/images/llama1.jpeg" width="250" alt="Mr Porwal" style="border-radius: 15px;" />
