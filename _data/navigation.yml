@@ -11,6 +11,12 @@ main:
   - title: "Publications"
     url: "https://scholar.google.com/citations?user=67Xg6T8AAAAJ&hl=en"
 
+  - title: "Portfolio"
+    url: /portfolio/
+
+  - title: "Blogs"
+    url: "https://substack.com/@srsk1729"
+    
   - title: "AI Streaming"
     url: "https://youtube.com/@srsk-1729?si=Egjv9IgakzByGJfb"
 
@@ -18,11 +24,9 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+
         
-  - title: "Blog Posts"
-    url: "https://substack.com/@srsk1729"
+
     
   - title: "CV"
     url: "/files/ATS_Friendly_Technical_Resume.pdf"
