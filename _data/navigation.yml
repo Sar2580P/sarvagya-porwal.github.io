@@ -11,11 +11,10 @@ main:
   - title: "Publications"
     url: "https://scholar.google.com/citations?user=67Xg6T8AAAAJ&hl=en"
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "AI Streaming"
+    url: "https://youtube.com/@srsk-1729?si=Egjv9IgakzByGJfb"
 
-  - title: "radhavallabh"
-    url: "https://www.youtube.com/@SapnaDangii5/shorts"
+
   # - title: "Teaching"
   #   url: /teaching/    
     
@@ -23,7 +22,7 @@ main:
     url: /portfolio/
         
   - title: "Blog Posts"
-    url: /_posts/
+    url: "https://substack.com/@srsk1729"
     
   - title: "CV"
     url: "/files/ATS_Friendly_Technical_Resume.pdf"
