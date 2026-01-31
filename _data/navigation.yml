@@ -11,17 +11,19 @@ main:
   - title: "Publications"
     url: "https://scholar.google.com/citations?user=67Xg6T8AAAAJ&hl=en"
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Talks"
+    url: /talks/    
 
+  - title: "radhavallabh"
+    url: "https://www.youtube.com/@SapnaDangii5/shorts"
   # - title: "Teaching"
   #   url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
         
-  # - title: "Blog Posts"
-  #   url: /_posts/
+  - title: "Blog Posts"
+    url: /_posts/
     
   - title: "CV"
     url: "/files/ATS_Friendly_Technical_Resume.pdf"
