@@ -28,6 +28,11 @@
     @include prefix(0.5 of 12);
   }
 
+  // Account for fixed sidebar on screens >= 1024px
+  @media screen and (min-width: $sidebar-screen-min-width) {
+    margin-left: calc(#{$sidebar-link-max-width} + 1em);
+  }
+
   .page__inner-wrap {
     width: 100%;
     max-width: 100%;
