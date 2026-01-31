@@ -131,6 +131,9 @@
       {% endif %}            
       {% if author.soundcloud %}
         <li><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud icon-pad-right" aria-hidden="true"></i>Soundcloud</a></li>
+      {% endif %}
+      {% if author.substack %}
+        <li><a href="{{ author.substack }}"><i class="fas fa-fw fa-newspaper icon-pad-right" aria-hidden="true"></i>Substack</a></li>
       {% endif %}      
       {% if author.steam %}
         <li><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam icon-pad-right" aria-hidden="true"></i>Steam</a></li>
